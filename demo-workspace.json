@@ -1,0 +1,30 @@
+{
+  "clients": [
+    { "id": 1, "name": "Northstar Studio", "email": "hello@northstar.example", "initials": "NS", "color": "lavender", "rate": 95, "projects": 2, "status": "Active" },
+    { "id": 2, "name": "Olive & Oak", "email": "team@oliveandoak.example", "initials": "O", "color": "mint", "rate": 85, "projects": 1, "status": "Active" },
+    { "id": 3, "name": "Monocle Creative", "email": "hello@monoclecreative.example", "initials": "MC", "color": "peach", "rate": 110, "projects": 2, "status": "Active" },
+    { "id": 4, "name": "Sunday Supply", "email": "work@sundaysupply.example", "initials": "SS", "color": "blue", "rate": 90, "projects": 1, "status": "Active" },
+    { "id": 5, "name": "Fieldwork Co.", "email": "studio@fieldwork.example", "initials": "F", "color": "yellow", "rate": 100, "projects": 1, "status": "Active" }
+  ],
+  "projects": [
+    { "id": 1, "name": "Brand refresh & strategy", "client": "Northstar Studio", "category": "Branding", "status": "In progress", "progress": 72, "due": "Oct 24, 2026", "budget": 6400, "spent": 4480, "color": "purple", "initials": "N" },
+    { "id": 2, "name": "E-commerce website", "client": "Olive & Oak", "category": "Development", "status": "In progress", "progress": 48, "due": "Oct 29, 2026", "budget": 8200, "spent": 3940, "color": "green", "initials": "O" },
+    { "id": 3, "name": "Autumn campaign assets", "client": "Monocle Creative", "category": "Design", "status": "In progress", "progress": 86, "due": "Oct 18, 2026", "budget": 3900, "spent": 3150, "color": "orange", "initials": "M" },
+    { "id": 4, "name": "Product photography", "client": "Sunday Supply", "category": "Photography", "status": "In progress", "progress": 34, "due": "Nov 02, 2026", "budget": 2800, "spent": 1050, "color": "blue", "initials": "S" },
+    { "id": 5, "name": "Spring lookbook", "client": "Northstar Studio", "category": "Design", "status": "Review", "progress": 92, "due": "Oct 20, 2026", "budget": 5200, "spent": 4620, "color": "purple", "initials": "N" },
+    { "id": 6, "name": "Website copywriting", "client": "Fieldwork Co.", "category": "Writing", "status": "Completed", "progress": 100, "due": "Oct 08, 2026", "budget": 2400, "spent": 2300, "color": "yellow", "initials": "F" }
+  ],
+  "invoices": [
+    { "id": "INV-2026-014", "client": "Northstar Studio", "date": "Oct 10, 2026", "due": "Oct 24, 2026", "amount": 2850, "status": "Paid" },
+    { "id": "INV-2026-013", "client": "Monocle Creative", "date": "Oct 08, 2026", "due": "Oct 22, 2026", "amount": 1920, "status": "Pending" },
+    { "id": "INV-2026-012", "client": "Olive & Oak", "date": "Oct 02, 2026", "due": "Oct 16, 2026", "amount": 3640, "status": "Overdue" },
+    { "id": "INV-2026-011", "client": "Sunday Supply", "date": "Sep 28, 2026", "due": "Oct 12, 2026", "amount": 1580, "status": "Paid" }
+  ],
+  "logs": [
+    { "id": 1, "project": "Brand refresh & strategy", "client": "Northstar Studio", "date": "Today, 10:24 AM", "dateISO": "2026-10-12", "hours": 2.5, "note": "Logo exploration & concepts", "billable": true, "billed": false },
+    { "id": 2, "project": "E-commerce website", "client": "Olive & Oak", "date": "Today, 9:15 AM", "dateISO": "2026-10-12", "hours": 1.75, "note": "Product page wireframes", "billable": true, "billed": false },
+    { "id": 3, "project": "Autumn campaign assets", "client": "Monocle Creative", "date": "Yesterday", "dateISO": "2026-10-11", "hours": 3, "note": "Social media asset exports", "billable": true, "billed": false },
+    { "id": 4, "project": "Brand refresh & strategy", "client": "Northstar Studio", "date": "Yesterday", "dateISO": "2026-10-11", "hours": 2, "note": "Client feedback revisions", "billable": true, "billed": false },
+    { "id": 5, "project": "Product photography", "client": "Sunday Supply", "date": "Oct 9, 2026", "dateISO": "2026-10-09", "hours": 4, "note": "Studio shoot setup and selects", "billable": true, "billed": false }
+  ]
+}

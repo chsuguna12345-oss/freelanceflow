@@ -28,6 +28,16 @@ The Express server serves the app and its `/api/workspace` endpoints. MongoDB st
 
 `GET /api/health` reports server and database connectivity. `GET /api/workspace` loads workspace data; `PUT /api/workspace` saves it.
 
+## Sanitized demo data
+
+`demo-workspace.json` contains synthetic sample clients, projects, invoices, and time logs. To load it into a new, empty MongoDB database, run:
+
+```powershell
+npm run seed
+```
+
+The seed command only creates the default workspace when it does not already exist. It will not overwrite workspace data.
+
 ## Important
 
 The current demo has no real user authentication and uses one shared workspace. The server binds to `127.0.0.1` by default. Do not expose it to a network or use it for sensitive production data until authentication and per-user authorization are added.
